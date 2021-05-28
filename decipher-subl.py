@@ -1047,7 +1047,7 @@ class makeRowsMatchLabelCommand(sublime_plugin.TextCommand):
         except Exception as e:
             print (e)
 
-class makeRowsMatchValuesCommand(sublime_plugin.TextCommand):
+class makeRowsMatchValueCommand(sublime_plugin.TextCommand):
     def run (self,edit):
         try:
 
